@@ -1,0 +1,38 @@
+#blok-form{
+    background-color: chartreuse;
+    padding: 50px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+    font-family: Outfit;
+}
+
+form h2 {
+    padding-bottom: 25px;
+}
+input[type="email"]{
+    background-color: orange;
+    margin: 10px 0;
+}
+input[type="password"]{
+    background-color: orange;
+    margin: 10px 0;
+
+form button{
+    margin-top: 25px;
+}
+
+#waarschuwing{
+color: red;
+}
+
+#waarschuwing-pass{
+color: red;
+
+}

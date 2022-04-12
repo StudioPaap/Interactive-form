@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Form validation</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+<!-- Een formulier maken
+    1. Formulier met input veld email en wachtwoord
+    2. Submit knop toevoegen
+    3. als submit button is geklikt, checken in javascript
+    4. In js checken of wachtwoord voldoet aan conditie en email ook.
+    5. Een actie maken als conditie voldoet en actie maken als conditie voldoet.
+    6. Als beiden kloppen wordt het groen --!>
+
+<div id="blok-form">
+    <form>
+        <h2> Registreren</h2>
+       <label for="user-email-field">Email:</label>
+        <input type="email" id="user-email-field" name="Email-adres"/>
+
+        <p id="waarschuwing"></p>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pass-word"/>
+
+        <p id="waarschuwing-pass"></p>
+
+        <button type="submit">Verzenden</button>
+
+    </form>
+
+
+</div>
+
+<script src="main.js"></script>
 
 </body>
 </html>
